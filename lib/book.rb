@@ -1,10 +1,15 @@
 require 'pry'
 
 class Book
+<<<<<<< HEAD
   # macro that will define/create the methods we are interested in calling, :title unnecessary
   attr_accessor :title, :author, :page_count, :genre
   # macro to create reader (or getter) method for title
   attr_reader :title
+=======
+  # macro that will define/create the methods we are interested in calling
+  attr_accessor :title, :author, :page_count, :genre
+>>>>>>> b0f51476f2415f0860f483f9198cc735407bab18
   def initialize(title)
     @title = title
   end
